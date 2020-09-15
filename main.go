@@ -1,7 +1,6 @@
 package main
 
 import "fmt"
-import "reflect"
 
 func main() {
 	name := "Alexandre"
@@ -15,5 +14,8 @@ func main() {
 	fmt.Println("0- Exit")
 
 	var cmd int
-	fmt.Scan
+	fmt.Scan(&cmd)
+
+	fmt.Println(" the command was: ", cmd)
+
 }
